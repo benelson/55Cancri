@@ -11,44 +11,42 @@ Each line contains 68 values. They read as follows.
 
 MCMC information::
 
-Column 1: Markov chain generation
-Column 2: Markov chain index
-Column 3: Chi squared with jitter penalty term
+    Column 1: Markov chain generation
+    Column 2: Markov chain index
+    Column 3: Chi squared with jitter penalty term
 
 
 Orbital Parameter information. Each planet has 9 parameters::
 
-Columns 4, 13, 22, 31, 40: Orbital period in [days] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 5, 14, 23, 32, 41: RV half amplitude in [m/s] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 6, 15, 24, 33, 42: mass in [solar masses] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 7, 16, 25, 34, 43: semi-major axis in [AU] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 8, 17, 26, 35, 44: eccentricity for planets "e", "b", "c", "f", and "d" respectively.
-Columns 9, 18, 27, 36, 45: inclination in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 10, 19, 28, 37, 46: argument of pericenter in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 11, 20, 29, 38, 47: longitude of ascending node in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
-Columns 12, 21, 30, 39, 48: mean anomaly at the epoch of the first Lick observation in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 4, 13, 22, 31, 40: Orbital period in [days] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 5, 14, 23, 32, 41: RV half amplitude in [m/s] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 6, 15, 24, 33, 42: mass in [solar masses] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 7, 16, 25, 34, 43: semi-major axis in [AU] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 8, 17, 26, 35, 44: eccentricity for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 9, 18, 27, 36, 45: inclination in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 10, 19, 28, 37, 46: argument of pericenter in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 11, 20, 29, 38, 47: longitude of ascending node in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
+    Columns 12, 21, 30, 39, 48: mean anomaly at the epoch of the first Lick observation in [degrees] for planets "e", "b", "c", "f", and "d" respectively.
 
 
 Instrumental parameter information::
 
-Columns 49, 50, 51, 52, 53: Lick observatory RV offsets
-Columns 54, 55: Keck HIRES RV offsets
-Column 56: HET RV offset
-Column 57: HJST RV offset
-
-Columns 58, 59, 60: Lick observatory jitters
-Column 61: Keck jitter
-Column 62: HET jitter
-Column 63: HJST jitter
+    Columns 49, 50, 51, 52, 53: Lick observatory RV offsets
+    Columns 54, 55: Keck HIRES RV offsets
+    Column 56: HET RV offset
+    Column 57: HJST RV offset
+    Columns 58, 59, 60: Lick observatory jitters
+    Column 61: Keck jitter
+    Column 62: HET jitter
+    Column 63: HJST jitter
 
 
 Supplementary information::
-
-Column 64: Chi squared without jitter
-Column 65: Run length (number of subsequent states in the Markov chain without an Metropolis-Hastings acceptance)
-Column 66: Chi squared with jitter (no penalty term)
-Column 67: Stellar radius in [AU]
-Column 68: Stellar mass in [solar masses]
+    Column 64: Chi squared without jitter
+    Column 65: Run length (number of subsequent states in the Markov chain without an Metropolis-Hastings acceptance)
+    Column 66: Chi squared with jitter (no penalty term)
+    Column 67: Stellar radius in [AU]
+    Column 68: Stellar mass in [solar masses]
 
 
 Attribution
