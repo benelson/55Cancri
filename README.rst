@@ -6,7 +6,9 @@ This is a repository for posterior samples of the 55 Cancri planetary system. Me
 How to read these files
 -----------------------
 
-Each line contains 68 values. They read as follows.
+The two files listed above represent a different observational model. Case 1 assumes uncorrelated radial velocity observations. Case 2 assumes back-to-back radial velocity observations (< 10 minutes apart) are perfectly correlated. If you must choose only one of the two, **we recommend using Case 2.**
+
+Each line represents a draw from a Markov chain Monte Carlo. Each line contains 68 values. They read as follows.
 
 
 MCMC information::
@@ -42,6 +44,7 @@ Instrumental parameter information::
 
 
 Supplementary information::
+
     Column 64: Chi squared without jitter
     Column 65: Run length (number of subsequent states in the Markov chain without an Metropolis-Hastings acceptance)
     Column 66: Chi squared with jitter (no penalty term)
